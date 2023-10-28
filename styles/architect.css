@@ -83,6 +83,14 @@ nav>ul {
     padding-top: 50px;
 }
 
+
+/* main styles */
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
 /* responsive style */
 /* mobile devices */
 @media screen and (max-width:576px) {
