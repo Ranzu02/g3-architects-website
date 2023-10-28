@@ -11,6 +11,7 @@ header {
     padding: 50px 240px;
 }
 
+/* nav styles */
 .nav-title {
     color: #131313;
     font-family: Work Sans;
@@ -43,12 +44,12 @@ nav>ul {
     justify-content: space-around;
 }
 
-/* banner style */
+/* banner styles */
 .banner-content {
     max-width: 862px;
     text-align: center;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .banner-title {
@@ -59,12 +60,50 @@ nav>ul {
 
 .banner-description {
     color: #727272;
-    font-family: Work Sans;
     font-size: 16px;
     font-weight: 400;
 }
 
-.btn-primary{
-    
+.btn-primary {
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 20px 25px;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: 0;
+    cursor: pointer;
+    margin-top: 30px;
+
+}
+
+.banner img {
+    width: 100%;
+    padding-top: 50px;
+}
+
+/* responsive style */
+/* mobile devices */
+@media screen and (max-width:576px) {
+    header {
+
+        padding: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+}
+
+/* tablet or medium devices */
+@media screen and (min-width:576px) and (max-width:960px) {
+    header {
+        padding: 50px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
 
 }
