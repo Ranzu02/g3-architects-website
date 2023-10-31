@@ -90,6 +90,41 @@ main {
     margin: 0 auto;
 }
 
+/* teams styles */
+.team-container {
+    display: flex;
+    align-items: center;
+}
+
+.img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.4rem;
+}
+
+.team-content {
+    padding: 0 70px;
+}
+
+.team-title {
+    font-size: 2.8rem;
+}
+
+.team-title .quick-list {
+    color: #727272;
+    font-weight: 500;
+}
+
+.team-title .of-our {
+    color: #131313;
+    font-weight: 700;
+
+}
+
+.team-title .feature {
+    color: #FF900E;
+    font-weight: 700;
+}
 
 /* responsive style */
 /* mobile devices */
